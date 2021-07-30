@@ -17,7 +17,7 @@ def read_large_file(file_object):
 
 
 # Open a connection to the file
-with open("C:\Users\lisa.murphy\PycharmProjects\UCDExercises1\world_ind_pop_data.csv") as file:
+with open("world_ind_pop_data.csv") as file:
     # Create a generator object for the file: gen_file
     gen_file = read_large_file(file)
 
